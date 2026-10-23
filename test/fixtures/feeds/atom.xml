@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <title type="text">Code &amp; Coffee</title>
+  <subtitle>A dev blog</subtitle>
+  <link rel="self" href="https://dev.example/atom.xml"/>
+  <link rel="alternate" type="text/html" href="https://dev.example/"/>
+  <icon>/favicon.png</icon>
+  <author><name>Bo</name></author>
+  <entry>
+    <title>Shipping on Fridays</title>
+    <id>tag:dev.example,2026:42</id>
+    <link rel="alternate" href="/2026/fridays"/>
+    <published>2026-10-05T12:00:00Z</published>
+    <content type="html">&lt;p&gt;Don't.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>A video</title>
+    <id>yt:video:abc</id>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=abc"/>
+    <updated>2026-10-04T08:00:00+02:00</updated>
+    <author><name>Channel Person</name></author>
+    <media:group>
+      <media:title>A video</media:title>
+      <media:thumbnail url="https://i.ytimg.com/vi/abc/hqdefault.jpg" width="480" height="360"/>
+      <media:description>What this video is about.</media:description>
+    </media:group>
+  </entry>
+</feed>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/">
+<channel>
+  <title>Garden &amp; Kitchen</title>
+  <link>https://garden.example/</link>
+  <description>Notes from the allotment</description>
+  <image><url>https://garden.example/icon.png</url></image>
+  <item>
+    <title><![CDATA[Tomatoes <em>finally</em> ripe]]></title>
+    <link>https://garden.example/posts/tomatoes</link>
+    <guid isPermaLink="false">post-101</guid>
+    <pubDate>Tue, 06 Oct 2026 09:30:00 GMT</pubDate>
+    <dc:creator>Ann</dc:creator>
+    <description>Short version</description>
+    <content:encoded><![CDATA[<p>After weeks of waiting the <b>tomatoes</b> are ripe.</p><img src="/img/tom.jpg">]]></content:encoded>
+  </item>
+  <item>
+    <title>Seed swap</title>
+    <link>/posts/seeds</link>
+    <pubDate>not a date</pubDate>
+    <media:thumbnail url="https://garden.example/img/seeds.jpg"/>
+    <description>Bring your spare seeds &lt;b&gt;Saturday&lt;/b&gt;.</description>
+  </item>
+  <item><title>Seed swap</title><link>/posts/seeds</link></item>
+</channel>
+</rss>

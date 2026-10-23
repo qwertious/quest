@@ -1,0 +1,19 @@
+{
+  "exactUrls": [],
+  "urlPrefixes": [],
+  "blockedHosts": [],
+  "pathContains": [
+    "/login",
+    "/signin",
+    "/signup",
+    "/account",
+    "/checkout",
+    "/cart",
+    "/wp-admin",
+    "/admin",
+    "/private",
+    "/session",
+    "/auth",
+    "/oauth"
+  ]
+}

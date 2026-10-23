@@ -1,0 +1,16 @@
+node_modules/
+__pycache__/
+*.pyc
+.claude/
+.DS_Store
+Thumbs.db
+
+# Everything the crawler writes: databases, caches, exports
+data/
+raw_pages.json
+raw_pages.ndjson
+crawl_state.json
+search_index.json
+exyra.json
+exyra.txt
+xvine/

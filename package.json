@@ -1,0 +1,31 @@
+{
+  "name": "quest",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Qwertious Unified Extraction and Scanning Tool - steady-rate crawler and cache builder",
+  "main": "quest.js",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node quest.js",
+    "once": "node quest.js --once",
+    "status": "node maintain.js --status",
+    "checkpoint": "node maintain.js --checkpoint",
+    "compress": "node maintain.js --compress",
+    "rebuild-fts": "node maintain.js --rebuild-fts",
+    "stats": "node stats.js",
+    "test": "node --test --test-concurrency=1 \"test/*.test.js\"",
+    "netcheck": "node netcheck.js",
+    "rearchive": "node maintain.js --rearchive",
+    "rearchive-status": "node maintain.js --rearchive-status"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0"
+  },
+  "optionalDependencies": {
+    "better-sqlite3": "^11.3.0"
+  },
+  "license": "GPL-3.0-or-later"
+}
